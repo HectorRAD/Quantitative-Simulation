@@ -29,7 +29,6 @@ public class Day11{
         for(double i = Math.ceil(N/2); i < N-1; i++ ){
             tempValues[j] = values[(int)i];
             j++;
-           // System.out.println(tempValues[j]);
         }
         if(N%2==0)
             q3 = median(tempValues.length,tempValues);
